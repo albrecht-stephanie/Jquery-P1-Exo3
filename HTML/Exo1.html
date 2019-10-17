@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Exo1</title>
+  </head>
+  <body>
+    <caption><h1>Connexion</h1></caption>
+    <form action="/traimentinfo" method="post">
+      <div>
+        <label for="name">Nom/Pseudo:</label>
+        <input type="text" id="name" name="user-name">
+      </div>
+      <div>
+          <label for="password">Mot de passe (8 caractères minimum):</label>
+          <input type="password" id="password" name="password" minlength="8" required>
+      </div>
+      <input type="submit" value="Connexion">
+  </body>
+</html>
